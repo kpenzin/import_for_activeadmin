@@ -7,7 +7,7 @@ require 'rails/generators/migration'
 
 
 
-namespace 'import_for_activeadmin' do
+namespace :import_for_activeadmin do
   desc 'Create model, migration, page in ActiveAdmin and controllers'
   task :install do
     include Rails::Generators::Migration
