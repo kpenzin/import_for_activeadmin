@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ImportForActiveadmin::VERSION
   s.authors     = ['k.penzin']
   s.email       = ['k.penzin@writex.ru']
-  s.homepage    = 'TODO'
-  s.summary     = 'TODO: Summary of ImportForActiveadmin.'
-  s.description = 'TODO: Description of ImportForActiveadmin.'
+  s.homepage    = '123'
+  s.summary     = 'Summary of ImportForActiveadmin.'
+  s.description = 'Description of ImportForActiveadmin.'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
