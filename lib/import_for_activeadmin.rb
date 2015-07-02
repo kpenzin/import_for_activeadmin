@@ -1,0 +1,2 @@
+module ImportForActiveadmin
+end

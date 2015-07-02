@@ -1,0 +1,15 @@
+<%= form_for :assign_fields do |f| %>
+
+    <table>
+      <% (@fields.length-1).times do |i| %>
+          <tr id="<%= (@fields[i]+'_'+i.to_s).to_sym %>">
+            <td><b><%= f.label 'Field '+i.to_s+'('+@fields[i]+')'%></b></td>
+            <td><%= f.select ('_'+i.to_s).to_sym, @fields_model %></td>
+          </tr>
+      <% end %>
+    </table>
+
+    <span>
+      <%= link_to '<< Back', new_admin_import_path(id: params[:id]) %> <%= f.submit 'Next >>' %>
+    </span>
+<% end %>
