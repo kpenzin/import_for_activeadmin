@@ -34,15 +34,3 @@ end
 
 
 task default: :test
-
-require 'rails/generators'
-require 'rails/generators/migration'
-
-
-
-namespace :import_for_activeadmin do
-  desc 'Create model, migration, page in ActiveAdmin and controllers'
-  task :install do
-    puts 'sss'
-  end
-end
