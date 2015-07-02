@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ImportForActiveadmin::VERSION
   s.authors     = ['k.penzin']
   s.email       = ['k.penzin@writex.ru']
-  s.homepage    = '123'
+  s.homepage    = 'https://github.com/kpenzin/import_for_activeadmin'
   s.summary     = 'Summary of ImportForActiveadmin.'
   s.description = 'Description of ImportForActiveadmin.'
   s.license     = 'MIT'
